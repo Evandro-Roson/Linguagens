@@ -1,0 +1,75 @@
+h1,
+h2 {
+    text-align: center;
+    color: azure;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body {
+    background-color: white;
+}
+
+.section {
+    width: 50vw;
+    margin: auto;
+    background: rgb(28, 49, 68);
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button1,
+.button2 {
+    width: 25vw;
+    padding: 10px;
+}
+
+p {
+    color: black;
+}
+
+input {
+    font-size: 18px;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px black solid;
+    background-color: #3ea2ff;
+    padding: 15px 32px;
+    text-align: center;
+    width: 20vw;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+input:hover {
+    color: black;
+    background-color: white;
+}
+
+
+
+.logo {
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    max-width: 300px;
+    width: auto;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
