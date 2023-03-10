@@ -1,0 +1,17 @@
+{
+    "servicos":
+    [
+        {
+            "bt1": "Formatação Simples",
+            "bt2": "Formatação com Backup"
+        },
+        {
+            "bt1": "Backup em Nuvem",
+            "bt2": "Upgrade de Hardware"
+        },
+        {
+            "bt1": "Limpeza de Computadores",
+            "bt2": "Manutenção"
+        }
+    ]
+}

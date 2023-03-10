@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<array>
+    <fornecedores>
+        <fornecedor>
+            <nome>Aldo</nome>
+            <telefone>(44)3261-2000</telefone>
+            <site>www.aldo.com.br</site>
+        </fornecedor>
+        <fornecedor>
+            <nome>Agis</nome>
+            <telefone>(19)3756-4600</telefone>
+            <site>www.agis.com.br</site>
+        </fornecedor>
+        <fornecedor>
+            <nome>Oderço</nome>
+            <telefone>(44)2101-1400</telefone>
+            <site>www.oderco.com.br</site>
+        </fornecedor>
+        <fornecedor>
+            <nome>Mazer</nome>
+            <telefone>(41)2101-2100</telefone>
+            <site>www.mazer.com.br</site>
+        </fornecedor>
+    </fornecedores>
+</array>
