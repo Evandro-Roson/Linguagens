@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <!-- Bootstrap -->
+    <!-- Versão minimizada do CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Versão minimizada do JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <!-- Versão minimizada do Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Versão minimizada do Boostrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+        <h1>Formulário</h1>
+        <div class="form-group">
+            Nome:
+            <input type="text" id="nome" class="form-control" />
+        </div>
+        <div class="form-group">
+            Sexo:
+            <input type="text" id="sexo" class="form-control" />
+        </div>
+        <div class="form-group">
+            Ano de nascimento:
+            <input type="number" id="nascimento" class="form-control" />
+        </div>
+        <div class="form-group">
+            Marca:
+            <input type="text" id="marca" class="form-control" />
+        </div>
+        <div class="form-group">
+            Modelo:
+            <input type="text" id="modelo" class="form-control" />
+        </div>
+        <div class="form-group">
+            Ano de Fabricação:
+            <input type="number" id="fabricacao" class="form-control" />
+        </div>
+        <div class="form-group">
+            Valor do veículo:
+            <input type="number" id="valor" class="form-control" />
+        </div>
+        <div class="form-group">
+            Porcentagem de bônus:
+            <input type="number" id="bonus" class="form-control" />
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Enviar" class="btn btn-primary" onclick="enviar()" />
+        </div>
+        <div class="form-group">
+            Status:
+            <input type="text" value="Aguardando envio..." id="valorFinal" class="form-control" readonly />
+        </div>
+        <!-- Modal -->
+        <div class="modal" id="alerta">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Atenção</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div id="mensagem" class="modal-body">
+                        Preencha todos os campos!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
